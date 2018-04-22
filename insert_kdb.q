@@ -1,4 +1,5 @@
 n:3000; timerange:2302D; freq:0D00:30; calls:1
+startcpu:(til n)!25+n?20
 fcn:n*fc:`long$timerange%freq
 
 sample:([]
